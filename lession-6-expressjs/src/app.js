@@ -11,7 +11,12 @@ const PORT = 5000;
 
 app.use(bodyParser.json());
 
-app.use('/users', usersRoutes);
+app.use('/user', (req,res,next)=>{
+  console.log('The request received at:', new.date());
+  next();
+})
+
+app.use('/users',  usersRoutes);
 
 app.use('/posts', postsRoutes);
 
