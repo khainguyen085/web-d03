@@ -49,6 +49,11 @@
         $("#add-content-before-btn").click(function () {
           $("#text").before("<h1>Im new content after</h1>");
         });
+
+        //LOAD
+        $("#load-btn").click(function () {
+          $("#text").load("http://localhost:5000/users");
+        });
       });
     </script>
   </head>
@@ -83,5 +88,10 @@
     <button id="add-content-start-btn">Add new content - start</button>
     <button id="add-content-after-btn">Add new content - after</button>
     <button id="add-content-before-btn">Add new content - before</button>
+
+    <h3 id="ajax-heading" style="margin-block-end: 0.33em">AJAX</h3>
+    <button id="load-btn">Load Users</button>
+    <button id="get-btn">Get Users</button>
+    <button id="post-btn">Post Users</button><br />
   </body>
 </html>
