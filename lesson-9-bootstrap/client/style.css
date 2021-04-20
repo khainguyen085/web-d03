@@ -1,0 +1,54 @@
+h5{
+    font-size: 0.6em;
+}
+h1{
+    color:#0099ff;
+}
+#add-btn{
+    width: 100%;
+    font-size: 3em;
+    margin-top:4%;
+    padding: 5%;
+    border:1px solid rgb(133, 97, 97);
+    background-color:slategray;
+    border-radius:50%;
+}
+h4{
+    font-size: 1em;
+}
+h3{
+    font-size: 0.7em;
+}
+img{
+    width: 100px;
+    padding: 1%;
+}
+.avatar-btn{
+    width: 7.25em;
+    height: 8em;
+    margin-left:3%;
+    background-color: white;
+}
+.avatar img{
+    border-radius:50%;
+    width: 50px;
+}
+.icon-react img{
+    width: 40px;
+}
+.post{
+    margin-top:5%;
+    border: 1px solid black;
+}
+.sign-up-btn{
+    width: 100%; 
+    background-color:#1877f2; 
+    color:white;
+    font-family: inherit;
+}
+.sign-in-btn{
+    width: 100%; 
+    background-color: #42b72a; 
+    color:white;
+    font-family: inherit;
+}
