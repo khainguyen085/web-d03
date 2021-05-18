@@ -1,0 +1,9 @@
+.Time-Robot{
+    width:300px;
+    height: 200px;
+    background-color: peru;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}

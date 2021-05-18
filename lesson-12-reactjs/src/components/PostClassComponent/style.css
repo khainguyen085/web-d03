@@ -1,0 +1,21 @@
+.post-container{
+    width: 600px;
+    height: 250px;
+    border:1px solid black;
+    background-color: cadetblue;
+    /* border-radius: 5%; */
+    margin-bottom:3%;
+    margin-top:3%;
+    box-shadow: 5px 5px 7px;
+}
+.post--clicked{
+    background-color: grey;
+}
+.post--off{
+    width: 100px;
+    height: 50px;
+}
+
+h3,p{
+    margin-left:5%;
+}

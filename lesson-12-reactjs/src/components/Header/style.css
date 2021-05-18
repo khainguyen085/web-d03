@@ -1,0 +1,36 @@
+.header {
+  padding: 16px;
+  border: 1px solid black;
+  width: 100vw;
+  text-align: center;
+}
+.header__menu {
+  background-color: cornflowerblue;
+}
+.header__menu ul {
+  list-style: none;
+}
+.header__menu ul li {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  height: 30px;
+  text-decoration: none;
+  padding-left: 5%;
+  padding-top: 1%;
+}
+.header__link{
+    width: 100px;
+}
+.header__link:hover{
+    background-color: white;
+}
+.header__link--actived{
+    background-color: white;
+}
